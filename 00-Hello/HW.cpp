@@ -1,6 +1,8 @@
 /*
 
-Bulgarelli victor
+Bulgarelli victor - 2476976
+
+K1051
 
 Programa Hellow Word
 
