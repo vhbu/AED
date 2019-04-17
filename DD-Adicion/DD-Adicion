@@ -1,3 +1,16 @@
 #BulgareliVictor
 #DD-Adicion
 #V1 - 16-04-2019
+
+#Estructura del programa:
+
+Inicio del programa
+#Variable A,B,C 
+#Titulo del programa
+#Titulo del primer valor (A) a ingresar
+#ingreso del primer valor (A)
+#Titulo del segundo valor (B) a ingresar
+#Ingreso del seundo Valor(B)
+#Operación de adicion: C=A+B, donde C es resultado de la suma de A con B
+#Tiulo y declacion de los valor ingresados A Y B, con resulado C
+#Fin del programa
