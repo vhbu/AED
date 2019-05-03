@@ -1,5 +1,5 @@
 /* UTN-FRBA-AED
- * TP Nº 3: Tipos de Datos:Valores y Operaciones
+ * TP NÂº 3: Tipos de Datos:Valores y Operaciones
  * Alumno: Victor H Bulgarelli - 2476976
  * Fecha: 02/05/2019
 */
@@ -33,16 +33,16 @@ cout <<endl;
 cout <<endl;
             pruebabool = false;
 			cout << "\n";
-			cout << std::boolalpha << pruebabool << " o "; // la función boolalpha expresa los booleanos como
+			cout << std::boolalpha << pruebabool << " o "; // la funciÃ³n boolalpha expresa los booleanos como
 			pruebabool = ~pruebabool; 			    // true o false.
-			cout <<std::boolalpha << pruebabool << endl; // ~pruebaboolaquí haría que el display sea "1"
+			cout <<std::boolalpha << pruebabool << endl; // ~pruebaboolaquÃ­ harÃ­a que el display sea "1"
 			cout << "\n";
 /*Valores bool ---------------------------------------------------------------------------------------------*/
 
 
 /*Valores char ---------------------------------------------------------------------------------------------*/
 cout <<endl;
-            cout << "\t Valores de char - Muestra valores: " << endl;
+            cout << "\t Valores de char - Muestra valores:" << endl;
 cout <<endl;
 			cout << "\n";
 			l = 0;
@@ -56,8 +56,8 @@ cout <<endl;
 
 /*Convertir string en char ---------------------------------------------------------------------------------------------*/
 			cout << "\n";
-			cout << "Ingrese la cadena a descomponer en char: ";
-            cin >> cad;
+			cout << " Se Ingrese la cadena a descomponer en char: CAPITAL"<<endl;
+            cad="CAPITAL";
             for (i=0; cad[i]!='\0'; i++)
             cout << cad[i] << endl;
 			cout << endl;
@@ -67,10 +67,10 @@ cout <<endl;
             cout <<endl;
             cout << "\t Adicionar dos int entre si: " << endl;
             cout <<endl;
-			cout << "Inserte el primer numero de la sumatoria: ";
-			cin >> sumuno;
-			cout << "Inserte el segundo numero de la sumatoria: ";
-			cin >> sumdos;
+			cout << " Se Inserta el primer numero de la sumatoria: 2";
+			sumuno=2;
+			cout << "Se Inserta el segundo numero de la sumatoria: 3 ";
+			sumdos=3;
 			cout << "El resultado es: " << (sumuno + sumdos) << endl;
             cout <<endl;
 /*Adicionar dos int entre si ---------------------------------------------------------------------------------------------*/
@@ -80,10 +80,10 @@ cout <<endl;
             cout << "\t Dividir dos double entre si: " << endl;
             cout <<endl;
 			cout << "\n";
-			cout << "Inserte el dividendo: ";
-			cin >> dividendo;
-			cout << "Inserte el divisor: ";
-			cin >> divisor;
+			cout << "Se Inserta el dividendo: 8 ";
+			dividendo=8;
+			cout << "Se Inserta el divisor: 2 ";
+			divisor=2;
 			cout << "El resultado es: " << (dividendo / divisor) << endl;
 			cout << "\n";
 /*Dividir dos double entre si ---------------------------------------------------------------------------------------------*/
